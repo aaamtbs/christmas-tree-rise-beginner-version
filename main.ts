@@ -1,5 +1,5 @@
 input.onSound(DetectedSound.Loud, function () {
-    tree.triggerRise(duration)
+    tree.triggerRiseWithColor(duration, 0)
 })
 input.onButtonPressed(Button.A, function () {
     duration += -1
